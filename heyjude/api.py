@@ -2,13 +2,15 @@ import requests
 
 
 class HeyJudeAPI:
-    BASE_URL = "https://agent.heyjudeapp.com"
+    BASE_URL = "https://maia.plp.co.za"
 
-    def __init__(self, email, password, api_key):
+    def __init__(self, email, password, api_key, base_url=""):
         self.email = email
         self.password = password
         self.api_key = api_key
-        self.token = self._authenticate()
+        self.token = self._authenticate(),
+        if base_url:
+            self.BASE_URL = base_url
 
     def _authenticate(self):
         endpoint = "/api/v1/auth/sign-in"
