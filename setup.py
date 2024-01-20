@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="py-heyjude",
-    version="0.1.1",
+    version="0.1.2",
     author="Evil Toast",
     description="A Python wrapper for the HeyJude API",
     long_description=long_description,
