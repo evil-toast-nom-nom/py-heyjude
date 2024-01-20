@@ -1,6 +1,7 @@
 # py-heyjude
 
-A Python wrapper for the HeyJude API.
+A Python wrapper for the [HeyJude Service](http://heyjude.co.za/)
+
 
 ## Installation
 
